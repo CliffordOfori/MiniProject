@@ -1,0 +1,439 @@
+
+
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*,*::before,*::after{box-sizing:border-box}body,h1,h2,h3,h4,p,figure,blockquote,dl,dd{margin:0}ul[role="list"],ol[role="list"]{list-style:none}html:focus-within{scroll-behavior:smooth}body{min-height:100vh;text-rendering:optimizeSpeed;line-height:1.5}a:not([class]){text-decoration-skip-ink:auto}img,picture{max-width:100%;display:block}input,button,textarea,select{font:inherit}@media(prefers-reduced-motion:reduce){html:focus-within{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}
+
+
+
+
+
+
+
+
+
+
+
+body#LoginBody{
+    background-image: url("images/BackLogin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+    
+
+ div.header{
+    text-align: center;
+    text-shadow: 15px 10px 5px midnightblue;
+
+    
+    
+ }
+ div.header h1{
+    font-size: 50px;
+    color:rgb(47, 255, 85);
+    margin-top: 50px;
+    
+    
+    
+ }
+    
+    
+    div.header h1:after{
+        content: '';
+        display: block;
+        height:5px;
+       margin: 0 auto;
+    
+    }
+   div.header h1{
+    margin-bottom: 60px;
+    padding: 10px;
+   }
+     
+
+   
+   
+    
+
+div.login  form{
+    margin: 0 auto;
+    margin-top: 130px;
+    width: 600px;
+
+    height: 400px;
+    background-color: rgba(0,0,0,.5);
+    border: 2px solid;
+    border-radius: 5px;
+    border-color:white;
+    padding: 100px;
+    
+  
+    
+   
+
+}
+
+div.login form{
+    position: relative;
+    top: 30px;
+}
+
+div.loginArea label{
+    margin-top: 20px;
+}
+
+div.loginArea label{
+
+    display: block;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+}
+  
+div.loginArea input{
+    height:30px;
+    width: 100%;
+    border: 2px solid purple;
+}
+
+div.loginButton button{
+    
+    margin-left: 150px;
+    width: 70px;
+    height: 35px;
+    font-weight: bold;
+    background-color: cyan;
+    color: black;
+    
+    
+}
+
+
+
+div.Info h3{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 5px;
+    margin-top: -80px;
+    color: cyan;
+}
+
+ div.loginButton button:hover{
+    color: orange;
+ }
+ div.loginButton button:hover{
+    background-color: darkmagenta;
+ }
+ div.loginButton button:active{
+    background-color: rgb(43, 226, 67);
+ }
+
+ div.loginArea{
+    padding-bottom: 50px;
+    padding-top: -100px;
+ }
+
+
+ div.banner{
+    background-image: url("HomePage.html/himages/BackHome.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    padding-bottom: 100px;
+    padding-top: 100px;
+    height: 80vh;
+
+ }
+
+ div.HomepageContainer{
+    width: 100%;
+    max-width: 900px;
+    height: 70vh;
+    margin: 0 auto;
+    
+    
+
+ }
+ h1.IMS{
+    color:white;
+    font-size: 50px;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
+ }
+
+ div.Heading{
+    font-size: 30px;
+    color: rgb(47, 255, 85);
+    text-shadow:  5px 5px 2px darkcyan;
+ }
+p.SubHeading{
+
+    font-size: 25px;
+    color: cyan;
+    background-color: rgba(0,0,0,.5);
+    margin-top: 10px;
+
+    
+}
+div.Icons{
+   
+   height: 200px;
+   margin-top: 100px;
+}
+
+
+div.Icons a{
+   
+   
+   margin-left: 70px;
+   color:rgb(250, 0, 112);
+   font-size: 30px;
+   background-color:lightgreen;
+   border-radius: 40%;
+   padding-left: 12px;
+  
+   
+  
+}
+
+.fa-android{
+
+width: 42px;
+height: 50px;
+
+}
+
+
+.fa-apple{
+   width: 42px;
+   height: 50px;
+   
+}
+
+.fa-windows{
+   width: 42px;
+   height: 50px;
+   
+}
+div.Icons a:first-child{
+   margin-left: 0px;
+}
+div.Icons a:hover{
+   color:blue;
+   font-size: 25px;
+   
+   
+   
+}
+div.HpFeatures{
+   display: flex;
+   flex-direction: row;
+   margin-left: 20px;
+   margin-top: 5px;
+}
+
+div.HpFeature1{
+   
+   margin-right: 120px;
+   padding: 10px 20px;
+
+}
+   
+div.HpFeature2{
+   margin-left: 90px;
+   padding: 10px 20px;
+}
+
+div.HpFeature3{
+   margin-left: 200px;
+   padding: 10px 20px;
+}
+span.FeatureIcon{
+   height: 100px;
+   width: 100px;
+   font-size: 40px;
+   color:blueviolet;
+
+}
+
+div.HomepageNotified{
+   background:#e3e3e3;
+   margin-top: -350px;
+   padding-top: 20px;
+   height: 250px;
+   padding-right: 400px;
+   
+   
+}
+
+   
+   
+   
+
+
+div.HomepageNotifiedContainer{
+   display: flex;
+   flex-direction: row; 
+   padding-left: 300px;
+   
+   
+   
+}
+div.HomepageNotified h3{
+   margin-bottom: 20px;
+
+}
+div.FormContainer{
+   width: 80%;
+
+}
+
+div.FormContainer input{
+   width: 300px;
+   padding: 15px 10px;
+  
+   
+}
+div.FormContainer button{
+   position: absolute; 
+   background: pink;
+   margin-top: 20px;
+   margin-left: 95px;
+   width: 100px;
+   
+}
+div.Word{
+   margin-right: 200px;
+}
+div.Socials{
+   text-align: center;
+   padding: 50px 0px 20px 0px;
+   
+}
+div.SocialIcons a{
+   font-size: 20px;
+   width: 50px;
+   height: 50px;
+   display: inline-block;
+   background-color: cyan;
+   border-radius: 50px;
+   padding-top: 10px;
+   margin-left: 20px;
+   margin-top: 35px;
+
+
+
+
+}
+div.SocialIcons a:hover{
+   background-color: forestgreen;
+   transition: 0,3s all;
+}
+div.BottomInfo{
+   background-color: #e3e3e3;
+   padding-top: 80px;
+   padding-bottom: 80px;
+   text-align: center;
+   margin-top: -390px;
+   height: 100px;
+
+}
+div.BottomInfo a{
+   color: chocolate;
+   margin-left: 30px;
+   
+}
+
+   
+   
+form.app-form{
+   width: 50%;
+   margin: 0 auto;
+}
